@@ -29,12 +29,12 @@ async def up(event):
 async def start(event):
     ok = await event.client(GetFullUserRequest(event.sender_id))
     await event.reply(
-        f"Hi `{ok.user.first_name}`\nThis is A CompressorBot Which Can Encode Videos.\nReduce Size of Videos With Negligible Quality Change\nU can Generate Samples/screenshots too.",
+        f"Hi `{ok.user.first_name}`\nAsalam alikum waramhatullahi wabarkatu.\boi yaa byani be chus video compress bot baye deme be tohe screenshot te sample video te \ncompress mtlb agr tohe 700mb video lecture chu be banawan su 500 mb khoate te kam baye gaxe ne quality te kharab allah hafiz duan manz thayzyaov yaad.",
         buttons=[
             [Button.inline("HELP", data="ihelp")],
             [
-                Button.url("SOURCE CODE", url="github.com/1Danish-00/CompressorBot"),
-                Button.url("DEVELOPER", url="t.me/danish_00"),
+                Button.url("SHARE ME", url="https://t.me/share/url?url=t.me/KOSHUR_COMPRESS_BOT"),
+                Button.url("DEVELOPER", url="t.me/kashmir_1"),
             ],
         ],
     )
